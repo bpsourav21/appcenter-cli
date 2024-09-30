@@ -571,7 +571,7 @@ function getComposeSourceMapsPath(): string {
 
 function getCliPath(): string {
   if (process.platform === "win32") {
-    return path.join(getReactNativePackagePath(), "local-cli", "cli.js");
+    return path.join(getReactNativePackagePath(), "cli.js");
   }
 
   return path.join("node_modules", ".bin", "react-native");
